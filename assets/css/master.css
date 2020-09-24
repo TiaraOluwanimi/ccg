@@ -4411,3 +4411,8 @@ a.cbtn3:hover {
 #corporate, #governance {
   background: #263045;
 }
+#corporate.single_blog {
+  border-radius: 5px;
+  background: #ffffff;
+  margin-bottom: 30px;
+}
