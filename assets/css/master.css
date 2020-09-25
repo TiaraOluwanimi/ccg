@@ -121,7 +121,7 @@ a, a:hover {
 }
 
 .theme-3 a:hover {
-  color: #E8505B;
+  color: #dd5500;
   transition: all 0.3s;
 }
 
@@ -2412,7 +2412,7 @@ HEADER AREA CSS
 }
 
 .theme-3 .main_menu ul li ul li a:hover {
-  background: #E8505B;
+  background: #dd5500;
 }
 
 .header2 .main_menu ul li a {
@@ -2603,7 +2603,7 @@ WELCOME AREA CSS
 }
 
 .theme-3 .mail_point a span {
-  background: #E8505B;
+  background: #dd5500;
 }
 .theme-3 .mail_point:before {
   background: #36415A;
@@ -3377,7 +3377,7 @@ PORTFOLIO AREA CSS
 .nav_style3 .owl-nav > div {
   height: 64px;
   width: 64px;
-  background: #E8505B;
+  background: #dd5500;
   text-align: center;
   line-height: 58px;
   color: #ffffff;
@@ -3411,7 +3411,7 @@ PORTFOLIO AREA CSS
   transition: all 0.4s;
 }
 .testimonial_area3.nav_style3 .owl-nav > div:hover {
-  background: #E8505B;
+  background: #dd5500;
   color: #ffffff;
   transition: all 0.4s;
 }
@@ -3669,16 +3669,16 @@ PRICE AREA CSS
 }
 
 .theme-3 .tab_box ul.nav.nav-tabs li a.active {
-  background: #E8505B;
+  background: #dd5500;
 }
 .theme-3 .single_price span.banner {
-  background: #E8505B;
+  background: #dd5500;
 }
 .theme-3 .single_price h5 span.price_offer {
-  background: #E8505B;
+  background: #dd5500;
 }
 .theme-3 .single_price ul.price_point li:before {
-  background: #E8505B;
+  background: #dd5500;
 }
 
 a.price_btn {
@@ -3698,14 +3698,14 @@ a.price_btn:hover {
 }
 
 .theme-3 a.price_btn:hover {
-  background: #E8505B;
-  border-color: #E8505B;
+  background: #dd5500;
+  border-color: #dd5500;
   transition: all 0.3s;
   color: #ffffff;
 }
 .theme-3 a.price_btn.active {
-  background: #E8505B;
-  border-color: #E8505B;
+  background: #dd5500;
+  border-color: #dd5500;
 }
 
 a.price_btn.active {
@@ -3781,7 +3781,7 @@ BLOG AREA CSS
 }
 
 .theme-3 .single_blog .blog_img a.meta {
-  background: #E8505B;
+  background: #dd5500;
 }
 
 a.learnmore_btn {
@@ -3866,7 +3866,7 @@ FOOTER AREA CSS
 }
 
 .theme-3 .subscribe_form form .subcribe_btn {
-  background: #E8505B;
+  background: #dd5500;
 }
 
 .contact_card {
@@ -3919,7 +3919,7 @@ FOOTER AREA CSS
 }
 
 .theme-3 .contact_card {
-  background: #E8505B;
+  background: #dd5500;
 }
 .theme-3 .contact_card p {
   font-weight: 500;
@@ -3955,7 +3955,7 @@ FOOTER AREA CSS
 }
 
 .theme-3 .social2 ul li a:hover {
-  background: #E8505B;
+  background: #dd5500;
 }
 
 .single_footer_widget {
@@ -4242,7 +4242,7 @@ a.cbtn3:hover {
 }
 
 .theme-3 .cbtn1 {
-  background: #E8505B;
+  background: #dd5500;
 }
 .theme-3 .cbtn1:before {
   background: #dc4550;
