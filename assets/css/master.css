@@ -2389,9 +2389,9 @@ HEADER AREA CSS
   border-bottom: 1px solid #f1f1f1;
 }
 .main_menu ul li ul li a {
-  padding: 10px 20px;
+  padding: 13px 20px;
   display: block;
-  width: 200px;
+  width: 30em;
   transition: all 0.5s;
   border-radius: 3px;
 }
