@@ -1,5 +1,5 @@
 .aro2{
-    transform: translateY(35px);
+    font-size: 0.8em;
 }
 
 @media(max-width:768px){
