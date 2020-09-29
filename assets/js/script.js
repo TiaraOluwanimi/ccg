@@ -139,9 +139,7 @@
       scrollers.on("click", function (e) {
         e.preventDefault();
         var checkIfAbout = $(this).attr("href").split("#").pop() == "about";
-        if (checkIfAbout) {
-          return (location.href = "../../index.html#about");
-        }
+        if (checkIfAbout) return (location.href = "../../index.html#about");
         $("html, body").animate(
           {
             scrollTop: $($(this).attr("href")).offset().top,
