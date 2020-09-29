@@ -140,7 +140,7 @@
         e.preventDefault();
         var checkIfAbout = $(this).attr("href").split("#").pop() == "about";
         if (checkIfAbout) {
-          return (location.href = "/#about");
+          return (location.href = "../../index.html#about");
         }
         $("html, body").animate(
           {
