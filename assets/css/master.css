@@ -3836,13 +3836,13 @@ FOOTER AREA CSS
   font-size: 26px;
   color: #ffffff;
 }
-.subscribe_form form {
+/* a.subscribe_form  {
   
   display: block;
   height: 69px;
   border-radius: 5px;
   overflow: hidden;
-}
+} */
 /* .subscribe_form form input {
   float: left;
   width: 66%;
@@ -3851,13 +3851,19 @@ FOOTER AREA CSS
   background: #404B62;
   color: #ffffff;
 } */
-.subscribe_form form input::placeholder {
-  color: #ffffff;
+a.subc{
+  width:250px ;
+  margin: auto;
 }
-.subscribe_form form .subcribe_btn {
+.lining{
+  text-align: center;
+  
+}
+
+ .subcribe_btn {
   border: none;
   width: 250px;
-  float: right;
+  
   background: #047DFF;
   color: #ffffff;
   padding: 21px;
@@ -3865,7 +3871,7 @@ FOOTER AREA CSS
   display: inline-block;
 }
 
-.theme-3 .subscribe_form form .subcribe_btn {
+a.subc .subcribe_btn {
   background: #dd5500;
 }
 
@@ -4019,8 +4025,13 @@ FOOTER AREA CSS
   .single_footer_widget {
     margin: 50px 0;
   }
+  .lining2{
+    text-align: center;
+    margin-bottom: 20px;
+  }
 }
 @media screen and (min-width: 767px) and (max-width: 990px) {
+  
   .contact_card {
     display: none;
   }
