@@ -138,8 +138,29 @@
     if ($(".scroll").length > 0) {
       scrollers.on("click", function (e) {
         e.preventDefault();
-        var checkIfAbout = $(this).attr("href").split("#").pop() == "about";
-        if (checkIfAbout) return (location.href = "../index.html#about");
+        var target = $(this).attr("href").split("#").pop();
+        switch (target) {
+          case "about":
+            redirectToHome("about");
+            break;
+          case "fhl":
+            redirectToHome("fhl");
+            break;
+          case "cp":
+            redirectToHome("cp");
+            break;
+          case "etc":
+            redirectToHome("etc");
+            break;
+          case "governance":
+            redirectToHome("governance");
+            break;
+          case "sas":
+            redirectToHome("sas");
+            break;
+          default:
+            break;
+        }
         $("html, body").animate(
           {
             scrollTop: $($(this).attr("href")).offset().top,
@@ -149,7 +170,9 @@
         );
       });
     }
-
+    function redirectToHome(target) {
+      return (location.href = "../index.html#" + target);
+    }
     function fixed_nav() {
       window.onscroll = function () {
         myFunction();
