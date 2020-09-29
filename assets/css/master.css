@@ -3833,30 +3833,30 @@ FOOTER AREA CSS
 
 .subscribe_form h3 {
   font-weight: 400;
-  font-size: 30px;
+  font-size: 26px;
   color: #ffffff;
 }
 .subscribe_form form {
-  background: #404B62;
+  
   display: block;
   height: 69px;
   border-radius: 5px;
   overflow: hidden;
 }
-.subscribe_form form input {
+/* .subscribe_form form input {
   float: left;
   width: 66%;
   border: none;
   padding: 21px;
   background: #404B62;
   color: #ffffff;
-}
+} */
 .subscribe_form form input::placeholder {
   color: #ffffff;
 }
 .subscribe_form form .subcribe_btn {
   border: none;
-  width: 180px;
+  width: 250px;
   float: right;
   background: #047DFF;
   color: #ffffff;
@@ -4008,7 +4008,7 @@ FOOTER AREA CSS
     margin-top: 10px;
   }
   .subscribe_form form .subcribe_btn {
-    width: auto;
+    
     float: left;
     background: #047DFF;
     color: #ffffff;
@@ -4416,4 +4416,11 @@ a.cbtn3:hover {
 }
 #bgblack {
   background: #36415a;
+}
+
+
+@media screen and (max-width: 400px) {
+  .subscribe_form h3{
+    font-size: 20px;
+  }
 }
